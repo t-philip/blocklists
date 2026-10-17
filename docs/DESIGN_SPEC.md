@@ -178,9 +178,7 @@ different here than for the author's code repositories.
 - **Whether the streaming list is complete** for any given reader's purpose — several
   services that exist today are plausibly absent, since the last dated addition is
   from 2020.
-- **Live behaviour in Pi-hole or AdGuard Home.** There's no Pi-hole or AdGuard Home
-  instance available on the machine that wrote this document to load the corrected
-  file into and confirm gravity/filtering picks it up as expected. The format itself
+- **Live behaviour in Pi-hole or AdGuard Home.** This has not been tested against a live Pi-hole or AdGuard Home instance: the corrected file was not loaded to confirm gravity/filtering picks it up as expected. The format itself
   (`0.0.0.0 <domain>`, one per line, comments with `#`) is the same format
   `online_streaming_domains` has always shipped in and the README has always
   documented as supported, so this is a low-risk claim, not a novel one — but it is
