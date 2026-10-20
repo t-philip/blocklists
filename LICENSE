@@ -1,0 +1,14 @@
+This repository does not use a single license. Its two data files have
+different provenance and are licensed separately:
+
+  hosts/malware_domains          CC BY-NC-SA 4.0   LICENSES/CC-BY-NC-SA-4.0.txt
+  hosts/online_streaming_domains CC BY-SA 4.0      LICENSES/CC-BY-SA-4.0.txt
+
+malware_domains traces back to a now-offline third-party source
+(mirror1.malwaredomains.com/files/justdomains) whose own published terms
+restricted the data to noncommercial use. That restriction is preserved
+here rather than relicensed away. online_streaming_domains is an
+independent compilation by T. Philip with no such restriction.
+
+See docs/DESIGN_SPEC.md §5 and §9, and each file's own header comment, for
+the full explanation.
